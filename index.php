@@ -1,3 +1,8 @@
+<?php   require_once("globals.php");         ?>
+
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
