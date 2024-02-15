@@ -7,17 +7,17 @@
             <form action="<?= $BASE_URL ?>auth_process.php" method="POST">
             <input type="hidden" name="type" value="login">
             <div class="form-group">
-                <label for="email">
+                <label for="email_entrar">
                 E-mail:
                 </label>
-                <input type="email" class="form-control" id="email"  name="email" placeholder="Digite seu e-mail">
+                <input type="email" class="form-control" id="email_entrar"  name="email_name" placeholder="Digite seu e-mail">
             </div>
 
             <div class="form-group">
-                <label for="password">
+                <label for="password_entrar">
                     Senha:
                 </label>
-                <input type="password" class="form-control" id="password"  name="password" placeholder="Digite sua senha">
+                <input type="password" class="form-control" id="password_entrar"  name="password_name" placeholder="Digite sua senha">
             </div>
 
             <input type="submit" value="Entrar" class="btn card-btn">
@@ -34,20 +34,20 @@
                 <label for="email">
                     E-mail:
                 </label>
-                <input type="email" class="form-control" id="email"  name="email" placeholder="Digite seu e-mail">
+                <input type="email" class="form-control" id="email"  name="email_name" placeholder="Digite seu e-mail">
             </div>
 
             <div class="form-group">
                 <label for="name">
                     Nome:
                 </label>
-                <input type="text" class="form-control" id="name"  name="name" placeholder="Digite seu nome">
+                <input type="text" class="form-control" id="name"  name="name_name" placeholder="Digite seu nome">
             </div>
             <div class="form-group">
                 <label for="lastname">
                     Sobrenome:
                 </label>
-                <input type="text" class="form-control" id="lastname"  name="lastname" placeholder="Digite seu sobrenome">
+                <input type="text" class="form-control" id="lastname"  name="lastname_name" placeholder="Digite seu sobrenome">
             </div>
 
             
@@ -60,14 +60,14 @@
 
                 Senha:
                 </label>
-                <input type="password" class="form-control" id="password"  name="password" placeholder="Digite sua senha">
+                <input type="password" class="form-control" id="password"  name="password_name" placeholder="Digite sua senha">
             </div>
 
             <div class="form-group">
                 <label for="confirmpassword">
                     Confirmação de senha:
                 </label>
-                <input type="password" class="form-control" id="confirmpssword"  name="confirmpassword" placeholder="Confirme sua senha">
+                <input type="password" class="form-control" id="confirmpassword"  name="confirmpassword_name" placeholder="Confirme sua senha">
             </div>
 
             <input type="submit" value="Registrar-se" class="btn card-btn">
